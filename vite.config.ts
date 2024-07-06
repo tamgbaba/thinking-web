@@ -13,5 +13,7 @@ export default defineConfig({
     port: 5200, // 指定端口号
   },
 
-
+  optimizeDeps: {
+    include: ['element-plus'] // 优化依赖项配置，确保 Element Plus 被包含
+  }
 })

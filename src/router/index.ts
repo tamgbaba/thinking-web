@@ -5,6 +5,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: ()=>import('@/views/Home.vue'),
   },
+  {
+    path: '/tvbox',
+    name: 'tvobx',
+    component: ()=>import('@/views/tvbox/tvbox.vue'),
+  },
 ];
  
 const router = createRouter({

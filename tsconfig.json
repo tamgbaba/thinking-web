@@ -5,5 +5,8 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
+  "exclude": [
+    "node_modules"                          /* 排除的文件或文件夹 */
+  ]
 }
